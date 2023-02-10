@@ -1,0 +1,228 @@
+/* google Linkup */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;900&family=Zeyada&display=swap");
+
+/* font-family: "Zeyada", cursive; */
+
+/* variabales */
+:root {
+  --theme-color: #ea047e;
+}
+
+/* universal css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1124px;
+  margin: 0 auto;
+}
+
+/* navbar  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--theme-color);
+  padding: 15px 2%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.navbar img {
+  width: 50px;
+  animation: logoRotation 5s linear infinite;
+}
+
+@keyframes logoRotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nav_links ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav_links ul a {
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav_links ul a::before {
+  content: "";
+  background-color: #fff;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  transition: all 0.5s ease;
+}
+
+.nav_links ul a:hover::before {
+  width: 70%;
+}
+
+.navbar i {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.social_links a {
+  transition: all 0.4s ease-in-out;
+}
+
+.social_links a:hover {
+  scale: 1.2;
+}
+
+.social_links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Nft Collections */
+.nft_collections {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  position: relative;
+  padding: 6% 0 0 0;
+}
+
+.nft_left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.nft_right {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.nft_title {
+  font-family: "Zeyada", cursive;
+  color: var(--theme-color);
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nft_contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft_subtitle {
+  font-family: "Zeyada", cursive;
+  color: var(--theme-color);
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.nft_content {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.minting_date {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.minting_date h4 {
+  font-family: "Zeyada", cursive;
+  color: var(--theme-color);
+  font-size: 25px;
+}
+
+.minting_date span {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.nft_royalities_bottom {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* second section */
+.nft_collections_2 {
+  background-color: var(--theme-color);
+  color: #fff;
+  margin-top: -3%;
+}
+
+.nft_collections_2 .nft_left {
+  justify-content: start;
+}
+
+.nft_collections_2 .nft_subtitle {
+  color: #fff;
+}
+
+.nft_collections_2 .minting_date h4 {
+  color: #fff;
+}
+
+/* section 3 */
+.nft_collections_3 {
+  padding-bottom: 40px;
+}
+
+/* footer */
+
+footer {
+  padding: 20px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p span {
+  color: var(--theme-color);
+  font-family: "Zeyada", cursive;
+  font-size: 20px;
+}
