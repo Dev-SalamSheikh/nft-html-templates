@@ -27,9 +27,9 @@ ul {
   list-style: none;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 .container {
   width: 1124px;
@@ -70,7 +70,7 @@ img {
 .nav_links ul {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .nav_links ul a {
@@ -148,6 +148,7 @@ img {
 .nft_contents {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nft_subtitle {
@@ -214,6 +215,12 @@ img {
 
 footer {
   padding: 20px 0;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer p {
