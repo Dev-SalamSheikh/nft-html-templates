@@ -54,6 +54,9 @@ ul {
 
 .navbar img {
   width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
   animation: logoRotation 5s linear infinite;
 }
 
@@ -159,8 +162,8 @@ ul {
 }
 
 .nft_content {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 400;
   margin-bottom: 30px;
 }
