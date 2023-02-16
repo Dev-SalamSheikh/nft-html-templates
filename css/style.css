@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+.polygon {
+  color: var(--theme-color);
+}
+
 /* img {
   width: 100%;
 } */
@@ -151,7 +155,6 @@ ul {
 .nft_contents {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nft_subtitle {
