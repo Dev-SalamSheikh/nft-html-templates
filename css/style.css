@@ -359,6 +359,12 @@ ul {
 .row section .bottom a:hover {
   transform: scale(0.97);
 }
+
+.business .nft_subtitle {
+  color: #fff;
+  text-align: center;
+}
+
 @media (max-width: 790px) {
   .wrapper .center-line {
     left: 40px;
