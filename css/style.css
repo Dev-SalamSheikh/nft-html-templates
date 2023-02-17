@@ -375,6 +375,7 @@ ul {
 .business .nft_subtitle {
   color: #fff;
   text-align: center;
+  font-size: 40px;
 }
 
 @media (max-width: 790px) {
