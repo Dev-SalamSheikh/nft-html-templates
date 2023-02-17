@@ -46,7 +46,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: var(--theme-color);
-  padding: 15px 2%;
+  padding: 5px 2%;
   position: fixed;
   width: 100%;
   top: 0;
@@ -166,8 +166,8 @@ ul {
 
 .nft_content {
   font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.8);
   margin-bottom: 30px;
 }
 
@@ -196,7 +196,7 @@ ul {
 /* second section */
 .nft_collections_2 {
   background-color: var(--theme-color);
-  color: #fff;
+  color: #fff !important;
   margin-top: -3%;
 }
 
@@ -209,6 +209,10 @@ ul {
 }
 
 .nft_collections_2 .minting_date h4 {
+  color: #fff;
+}
+
+.nft_collections_2 .nft_content {
   color: #fff;
 }
 
@@ -356,6 +360,7 @@ ul {
 .timeline-content ul li {
   font-size: 14px;
   margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .row section .bottom a {
