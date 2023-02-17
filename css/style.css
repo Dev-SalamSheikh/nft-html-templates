@@ -339,13 +339,25 @@ ul {
   justify-content: space-between;
 }
 .row section .details .title {
-  font-size: 32px;
+  font-size: 25px;
   color: var(--theme-color);
   font-family: "Zeyada", cursive;
 }
 .row section p {
   margin: 0 0 10px 0;
 }
+
+.timeline-content ul {
+  padding-left: 40px;
+  list-style: disc;
+  margin-top: 10px;
+}
+
+.timeline-content ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
 .row section .bottom a {
   text-decoration: none;
   background: #ff7979;
