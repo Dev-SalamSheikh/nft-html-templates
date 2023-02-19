@@ -29,6 +29,7 @@ ul {
 
 .polygon {
   color: var(--theme-color);
+  font-weight: 500;
 }
 
 /* img {
