@@ -253,7 +253,7 @@ ul {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #fff;
+  background: #fdf5e6;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -293,7 +293,7 @@ ul {
 }
 
 .wrapper .row section {
-  background: #fff;
+  background: #fdf5e6;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -304,7 +304,7 @@ ul {
   content: "";
   height: 15px;
   width: 15px;
-  background: #fff;
+  background: #fdf5e6;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -329,7 +329,7 @@ ul {
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
   font-size: 15px;
-  color: white;
+  color: #fdf5e6;
 }
 
 .row-1 section .icon {
