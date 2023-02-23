@@ -131,6 +131,7 @@ ul {
   justify-content: space-between;
   position: relative;
   padding: 100px 0 0 0;
+  background-color: #fdf5e6;
 }
 
 .nft_left {
@@ -221,6 +222,7 @@ ul {
 /* section 3 */
 .nft_collections_3 {
   padding-bottom: 40px;
+  background-color: #fdf5e6;
 }
 
 /* Business Section */
@@ -389,6 +391,7 @@ ul {
 
 footer {
   padding: 20px 0;
+  background-color: #fdf5e6;
 }
 
 .footer_logo {
